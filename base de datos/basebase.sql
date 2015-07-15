@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 15-07-2015 a las 15:41:59
+-- Tiempo de generación: 15-07-2015 a las 12:47:20
 -- Versión del servidor: 5.5.20
 -- Versión de PHP: 5.3.10
 
@@ -19,6 +19,17 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `basebase`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `permiso`
+--
+
+CREATE TABLE IF NOT EXISTS `permiso` (
+  `idpermiso` int(11) NOT NULL,
+  PRIMARY KEY (`idpermiso`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
